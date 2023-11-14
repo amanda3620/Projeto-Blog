@@ -1,0 +1,25 @@
+{% extends 'modelo.html' %}
+{% block conteudo %}
+
+<div id="login">
+    {% if msg %}
+    <h2 class="erro">{{msg}}</h2>
+    {% endif %}
+    <div class="box2">
+    <form action="/acesso" method="post">
+        <h2 class="titulo">Acesso do administrador</h2>
+        <div class="usuario">
+        <label>Usuário</label>
+        <input type="text" name="usuario" id="usuario" required>
+        </div>
+        <br>
+        <div class="senha">
+        <label>Senha</label>
+        <input type="password" name="senha" id="senha" required>
+        </div>
+        <br>
+        <input type="submit" value="Acesso" name="acesso" class="acesso azul">
+    </form>
+    </div>
+</div>
+{% endblock %}

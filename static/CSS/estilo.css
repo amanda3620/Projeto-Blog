@@ -1,0 +1,192 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body {
+    font-family: Calibri;
+    font-size: medium;
+}
+
+.tudo{
+    background-color: #d3d3d3;
+    font-size: medium;   
+}
+
+
+footer{
+    height: 10%;
+    font-size: 10px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coisa{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.box{
+    background-color: #d2b876;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box2{
+    background-color: #d2b876;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    color: black;
+    border-color: black;
+}
+
+
+
+.boxpost{
+    background-color: #e7e7e7;
+    width: 230px;
+    height: 200px; ;
+    margin-left: 1%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 13px 0px darkgrey;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+#postagem .boxpost::-webkit-scrollbar{
+    display: none;
+}
+.conteudo p {
+    width: 100x;
+    word-wrap: break-word;
+}
+
+.postagem{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.botao{
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+    border: none;
+    margin-top: -10%;
+}
+.botao_alteracao{
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+    border: none;
+    margin-top: -10%;
+}
+.acesso{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: large;
+    border: none;
+    margin-top: 5%;
+}
+
+.azul{
+    background-color: #d2b876;
+    color: whitesmoke;
+}
+.azul:hover {
+    background-color: #bb943f;
+}
+
+.novo{
+    margin-top: 1%;
+}
+
+.titulo{
+    margin-top: -8% ;
+}
+
+.usuario{
+    margin-top: 10%;
+}
+
+.senha{
+    margin-top: 11%;
+}
+
+.erro{
+    text-align: center;
+    margin-top: 2%;
+    color: red;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.gif img{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen {
+    @media (max-width: 992px){
+        .postagem{
+            width: 400px;
+            height: 450px;
+            margin-top: 10%;
+            margin-left: 13%;
+        }
+    }
+
+    @media (max-width: 500px){
+        .postagem{
+            max-width: 350px;
+            height: 400px;
+            margin-top: 10%;
+            margin-left: 13%;
+        }
+    }
+
+    
+
+    
+    
+}
